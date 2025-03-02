@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status de Monitoramento</title>
+  <link rel="stylesheet" href="Style/Style.css">
+  <link rel="stylesheet" href="Style/themeTabela.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="stylesheet" href="Style/themeTabela.css">
+    <link rel="shortcut icon" href="Imgs/icon/tcc-icon-brazao.png" type="image/x-icon"> <!--Icone do titúlo ds página-->
+    <style>
+      @media screen and (min-width: 330px) and (max-width: 768px) {
+        h1 {
+          margin-top: 25%;
+        }
+      }
+    </style>
+</head>
+<body class="dark-theme">
+  <button id="themeIcon" onclick="TabelaTheme()">
+    <img src="Imgs/icon/lua-icon.png" id="butto-theme" alt="Ícone do tema" />
+  </button>
+  <div class="container">
+  <h1 style="text-align: center;">Status de Monitoramento de Incêndios</h1>
+  <table>
+    <caption>Dados dos Sensores</caption>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>IP do Módulo</th>
+        <th>Fogo</th>
+        <th>Gás</th>
+        <th>Temperatura</th>
+        <th>Status</th>
+        <th>Data e Hora</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-dados">
+    </tbody>
+  </table>
+</div>
+<script src="JS/tabela.js"></script>
+</body>
+</html>
