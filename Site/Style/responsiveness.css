@@ -67,10 +67,10 @@
 
 /* Telas grandes (768px a 1024px) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .login-page {
+  .login-page {
         width: 60%;
-        top: 30%; /* Ajuste para um pouco mais abaixo */
-        left: 19%;
+        top: 50%; /* Ajuste para um pouco mais abaixo */
+        left: 50%;
     }
 
     .matricula,
@@ -92,7 +92,6 @@
         left: auto 0;
     }
 }
-
 /* Telas extra grandes (acima de 1024px) */
 @media screen and (min-width: 1024px) {
     .login-page {
